@@ -35,6 +35,16 @@ def question_from_user():
 
 
 
+
+
+
+
+
+
+
+
+
+
 def add_questionsC():
     answer = random.randint(11,20)
 
