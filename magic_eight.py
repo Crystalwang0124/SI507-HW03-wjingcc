@@ -73,6 +73,6 @@ while True:
 		break
 	elif question[-1] == "?":
 		add_questionsB()
-		break
+		question = input("What's your next question? quit for exit:")
 	elif question[-1] != "?":
 		question = input("What's your question and pls end your question with question mark?:")
