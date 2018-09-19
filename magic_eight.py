@@ -36,7 +36,7 @@ def add_questionsB():
         elif answers == 10:
                 print ("Outlook good.")
 
-        elif answers=11:
+        elif answers==11:
             print ("Reply hazy, try again")
 
         elif answers==12:
