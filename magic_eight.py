@@ -36,34 +36,34 @@ def add_questionsB():
         elif answers == 10:
                 print ("Outlook good.")
 
-        elif answer==11:
+        elif answers=11:
             print ("Reply hazy, try again")
 
-        elif answer==12:
+        elif answers==12:
             print ("Ask again later.")
 
-        elif answer==13:
+        elif answers==13:
             print ("Better not tell you now.")
 
-        elif answer==14:
+        elif answers==14:
             print ("Cannot predict now.")
 
-        elif answer==15:
+        elif answers==15:
             print ("Concentrate and ask again.")
 
-        elif answer==16:
+        elif answers==16:
             print ("Don't count on it.")
 
-        elif answer==17:
+        elif answers==17:
             print ("My reply is no.")
 
-        elif answer==18:
+        elif answers==18:
             print ("My sources say no.")
 
-        elif answer==19:
+        elif answers==19:
             print ("Outlook not so good.")
 
-        elif answer==20:
+        elif answers==20:
             print ("Very doubtful.")
 
 question = input("What's your question?:")
