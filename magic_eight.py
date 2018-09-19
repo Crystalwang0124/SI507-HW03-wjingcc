@@ -75,4 +75,4 @@ while True:
 		add_questionsB()
 		break
 	elif question[-1] != "?":
-		question == input("What's your question and pls end your question with question mark?:")
+		question = input("What's your question and pls end your question with question mark?:")
