@@ -1,9 +1,4 @@
 #this is the main file for Magic8ball game
-import random
-
-def question_from_user():
-	print("What is your question?")
-	question = input()
 
 import sys
 import random
@@ -70,3 +65,14 @@ def add_questionsB():
 
         elif answer==20:
             print ("Very doubtful.")
+
+question = input("What's your question?:")
+
+while True:
+	if question == "quit":
+		break
+	elif question[-1] == "?":
+		add_questionsB()
+		break
+	elif question[-1] != "?":
+		question == input("What's your question and pls end your question with question mark?:")
