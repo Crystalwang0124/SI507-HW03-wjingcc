@@ -69,9 +69,12 @@ def play_game(self):
 	self.player3 = []
 	i = 0
 	
-	while (i<7):
-	    player1.append(card)
-	    player2.append(card)
-	    player3.append(card)
-	    i+= 1
+    for i in range (7):
+	    self.player1.append(card)
+	    self.player2.append(card)
+	    self.player3.append(card)
+            deck.pop_card()
+            deck.pop_card()
+            deck.pop_card()
+
 		
