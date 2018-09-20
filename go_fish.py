@@ -62,21 +62,17 @@ class Deck(object):
 				card = Card(suit,rank)
 				self.cards.append(card)
 				
-def play_war_game(testing=True):
-	# Call this with testing = True and it won't print out all the game stuff -- makes it hard to see test results
-	player1 = []
-	player2 = []
-	player3 = []
-
-	p1_score = 0
-	p2_score = 0
-	p3_score = 0
-	i = 0
+def play_game(self):
 	
-while (i != 6):
+	self.player1 = []
+	self.player2 = []
+	self.player3 = []
+
+    	i = 0
+	
+    while (i < 7):
 	player1.append(card)
 	player2.append(card)
 	player3.append(card)
-	if not testing:
-		print("\n*** BEGIN THE GAME ***\n")
+	i+= 1
 		
